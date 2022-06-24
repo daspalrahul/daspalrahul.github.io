@@ -1,0 +1,6 @@
+fileignoreconfig:
+- filename: js/jquery-3.2.1.min.js
+  checksum: 07e8fe10255bee8e6f995ec9e80b0021e4f64ae6e11b4f3f0e9d60d825fd0924
+- filename: js/plugins.js
+  checksum: 758d8beac2741e1146bf0338cf3dae249cd242dd949f998db96d5bae3287810d
+version: "1.0"
