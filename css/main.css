@@ -22,6 +22,10 @@
 
 }
 
+@media screen and (min-width: 600px)  {
+        .mobile-break { display: none; }
+    }
+
 
 
 /* ===================================================================
@@ -2618,3 +2622,142 @@ html.no-csstransitions .hero-content {
   }
 
 }
+
+
+.pattern {
+  color: #f9861a;
+}
+.pattern.dots-light {
+  background-image: radial-gradient(currentColor 0.5px, transparent 0.5px);
+  background-size: calc(10 * 1px) calc(10 * 1px);
+}
+.pattern.dots-regular {
+  background-image: radial-gradient(currentColor 1px, transparent 1px);
+  background-size: calc(10 * 1px) calc(10 * 1px);
+}
+.pattern.dots-bold {
+  background-image: radial-gradient(currentColor 2px, transparent 2px);
+  background-size: calc(9 * 2px) calc(9 * 2px)
+}
+.pattern.dots-display {
+  background-image: radial-gradient(currentColor 8px, transparent 8px);
+  background-size: calc(8 * 4px) calc(8 * 4px)
+}
+
+.pattern.cross-dots-light {
+  background-image: radial-gradient(currentColor 0.5px, transparent 0.5px), radial-gradient(currentColor 0.5px, transparent 0.5px);
+  background-size: calc(20 * 1px) calc(20 * 1px);
+  background-position: 0 0, calc(10 * 5px) calc(10 * 5px)
+}
+.pattern.cross-dots-regular {
+  background-image: radial-gradient(currentColor 1px, transparent 1px), radial-gradient(currentColor 1px, transparent 1px);
+  background-size: calc(20 * 1px) calc(20 * 1px);
+  background-position: 0 0, calc(10 * 5px) calc(10 * 5px)
+}
+.pattern.cross-dots-bold {
+  background-image: radial-gradient(currentColor 2px, transparent 2px), radial-gradient(currentColor 2px, transparent 2px);
+  background-size: calc(30 * 1px) calc(30 * 1px);
+  background-position: 0 0, calc(15 * 5px) calc(15 * 5px)
+}
+.pattern.cross-dots-display {
+  background-image: radial-gradient(currentColor 8px, transparent 8px), radial-gradient(currentColor 8px, transparent 8px);
+  background-size: calc(40 * 1px) calc(40 * 1px);
+  background-position: 0 0, calc(20 * 5px) calc(20 * 5px)
+}
+
+.pattern.diagonal-lines-light {
+  background-image: repeating-linear-gradient(-45deg, currentColor, currentColor 0.25px, transparent 0, transparent 50%);
+  background-size: 12px 12px
+}
+.pattern.diagonal-lines-regular {
+  background-image: repeating-linear-gradient(-45deg, currentColor 0, currentColor 1px, transparent 0, transparent 50%);
+  background-size: 12px 12px
+}
+.pattern.diagonal-lines-bold {
+  background-image: repeating-linear-gradient(-45deg, currentColor 0, currentColor 2px, transparent 0, transparent 50%);
+  background-size: 12px 12px
+}
+.pattern.diagonal-lines-display {
+  background-image: repeating-linear-gradient(-45deg, currentColor 0, currentColor 8px, transparent 0, transparent 50%);
+  background-size: 24px 24px
+}
+
+.pattern.cross-grid-light {
+  background: 
+    linear-gradient(180deg, white 80%, transparent 40%) 0 10px, linear-gradient(90deg, currentColor 1%, transparent 1%) 5px 0,
+    linear-gradient(90deg, white 80%, transparent 40%) 10px 0, linear-gradient(180deg, currentColor 1%, transparent 1%) 5px 5px;
+  background-size: calc(2 * 25px) calc(2 * 25px)
+}
+.pattern.cross-grid-regular {
+  background: 
+    linear-gradient(180deg, white 79%, transparent 0) 0 11px, linear-gradient(90deg, currentColor 3%, transparent 0) 5px 0,
+    linear-gradient(90deg, white 79%, transparent 0) 11px 0, linear-gradient(180deg, currentColor 3%, transparent 0) 5px 5px;
+  background-size: calc(2 * 25px) calc(2 * 25px)
+}
+.pattern.cross-grid-bold {
+  background: 
+    linear-gradient(180deg, white 77%, transparent 0) 0 12px, linear-gradient(90deg, currentColor 5%, transparent 0) 5px 0,
+    linear-gradient(90deg, white 77%, transparent 0) 12px 0, linear-gradient(180deg, currentColor 5%, transparent 0) 5px 5px;
+  background-size: calc(2 * 25px) calc(2 * 25px)
+}
+.pattern.cross-grid-display {
+  background: 
+    linear-gradient(180deg, white 70%, transparent 0) 0 15px, linear-gradient(90deg, currentColor 10%, transparent 0) 5px 0,
+    linear-gradient(90deg, white 70%, transparent 0) 15px 0, linear-gradient(180deg, currentColor 10%, transparent 0) 5px 5px;
+  background-size: calc(2 * 25px) calc(2 * 25px)
+}
+
+.pattern.dog-ear-light {
+  background: 
+    linear-gradient(180deg, white 70%, transparent 0) 0 20px, linear-gradient(90deg, currentColor 1%, transparent 1%) 5px 0,
+    linear-gradient(90deg, white 70%, transparent 0) 20px 0, linear-gradient(180deg, currentColor 1%, transparent 1%) 5px 5px;
+  background-size: calc(2 * 25px) calc(2 * 25px)
+}
+.pattern.dog-ear-regular {
+  background: 
+    linear-gradient(180deg, white 70%, transparent 0) 0 20px, linear-gradient(90deg, currentColor 3%, transparent 1%) 5px 0,
+    linear-gradient(90deg, white 70%, transparent 0) 20px 0, linear-gradient(180deg, currentColor 3%, transparent 1%) 5px 5px;
+  background-size: calc(2 * 25px) calc(2 * 25px)
+}
+.pattern.dog-ear-bold {
+  background: 
+    linear-gradient(180deg, white 70%, transparent 0) 0 20px, linear-gradient(90deg, currentColor 5%, transparent 1%) 5px 0,
+    linear-gradient(90deg, white 70%, transparent 0) 20px 0, linear-gradient(180deg, currentColor 5%, transparent 1%) 5px 5px;
+  background-size: calc(2 * 25px) calc(2 * 25px)
+}
+.pattern.dog-ear-display {
+  background: 
+    linear-gradient(180deg, white 70%, transparent 0) 0 20px, linear-gradient(90deg, currentColor 10%, transparent 1%) 5px 0,
+    linear-gradient(90deg, white 70%, transparent 0) 20px 0, linear-gradient(180deg, currentColor 10%, transparent 1%) 5px 5px;
+  background-size: calc(2 * 25px) calc(2 * 25px)
+}
+
+.pattern.line-dots-light {
+  background-image: 
+    radial-gradient(currentColor 1.5px, transparent 1.5px),
+    linear-gradient(0deg, currentColor, currentColor 1%, transparent 0, transparent); 
+  background-size: calc(2 * 13px) calc(2 * 13px);
+  background-position: -5px 0, 0 13px
+}
+.pattern.line-dots-regular {
+  background-image: 
+    radial-gradient(currentColor 3.25px, transparent 3.5px),
+    linear-gradient(0deg, currentColor, currentColor 5%, transparent 0); 
+  background-size: calc(2 * 13px) calc(2 * 13px);
+  background-position: -5px 0, 0 14px
+}
+.pattern.line-dots-bold {
+  background-image: 
+    radial-gradient(currentColor 5px, transparent 5px),
+    linear-gradient(0deg, currentColor, currentColor 5%, transparent 0); 
+  background-size: calc(2 * 17px) calc(2 * 17px);
+  background-position: -4px 0, 0 18px
+}
+.pattern.line-dots-display {
+  background-image: 
+    radial-gradient(currentColor 8px, transparent 8px),
+    linear-gradient(0deg, currentColor, currentColor 10%, transparent 0); 
+  background-size: calc(2 * 22px) calc(2 * 22px);
+  background-position: -11px 0, 0 24px
+}
+
