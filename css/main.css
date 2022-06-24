@@ -1691,6 +1691,31 @@ input::-moz-focus-inner {
 /* ------------------------------------------------------------------- 
  * ## mobile menu toggle
  * ------------------------------------------------------------------- */
+.spl {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  line-height: 3.2rem;
+  color: #f9861a;
+  outline: none;
+  border-color: #f9861a;
+  display: block;
+  width: 18.8rem;
+  height: 2px;
+  background-color: #ffffff;
+  /*-webkit-transition: all .5s;*/
+  /*transition: all .5s;*/
+  /*font: 0/0 a;*/
+  text-shadow: none;
+  /*color: transparent;*/
+  margin-top: -1px;
+  position: absolute;
+  right: 5.2rem;
+  top: 1.6rem;
+  
+}
+
 .header-menu-toggle {
   z-index: 101;
   display: none;
@@ -1781,12 +1806,12 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .header-content .btn {
   border-color: #ffffff;
-  color: #ffffff;
+  color: #222222;
   margin: 0;
   padding: 0 4rem;
   font-size: 1.1rem;
-  -webkit-transform: translate3d(0, -50%, 0);
-  transform: translate3d(0, -50%, 0);
+  /*-webkit-transform: translate3d(0, -50%, 0);*/
+  /*transform: translate3d(0, -50%, 0);*/
   position: absolute;
   top: 50%;
   right: 8rem;
