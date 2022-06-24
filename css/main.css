@@ -2437,6 +2437,7 @@ html.no-csstransitions .hero-content {
 
 .footer-contact-block__content,
 .footer-contact-block__list li {
+  color: #f9861a;
   padding: .8rem 0;
 }
 
@@ -2444,10 +2445,12 @@ html.no-csstransitions .hero-content {
   list-style: none;
   margin-top: .4rem;
   margin-left: 0;
+  color: #f9861a;
 }
 
 .footer-contact-block__list li {
   padding-left: 0;
+  color: #f9861a;
 }
 
 .footer-contact-block__header {
